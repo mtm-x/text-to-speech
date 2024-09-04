@@ -4,11 +4,11 @@ Simple text to speech using python library gTTS ( Google text to speech).
 
 # Requirments 
 
-1. try : 
+1.  if  : 
           ```
           pip install customtkinter
           ```
-   except : 
+   else : 
            ```
            pip3 install customtkinter
            ```
@@ -16,12 +16,11 @@ Simple text to speech using python library gTTS ( Google text to speech).
 # Usage 
 
 1. Else Clone this repo , change directory and run the following 
-     
-     ```
-     python3 t2s.py 
-     ```
-     or
-
-     ```
-     python t2s.py 
-     ``` 
+    if : 
+          ```
+          python3 t2s.py
+          ```
+   else : 
+           ```
+           python t2s.py
+           ```
