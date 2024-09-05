@@ -4,15 +4,11 @@ Simple text to speech using python library gTTS ( Google text to speech).
 
 # Requirments 
 
-1.  if  : 
-          ```
-          pip install customtkinter
-          ```
-   else : 
-           ```
-           pip3 install customtkinter
-           ```
+1. Install required packages
 
+        ```
+         pip install -r requirements.txt
+        ```
 # Usage 
 
 1. Else Clone this repo , change directory and run the following 

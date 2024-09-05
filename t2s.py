@@ -35,16 +35,16 @@ def generate() :
         if not (os.path.isdir("speech outputs") == True) :
            os.mkdir("speech outputs")
         os.chdir("speech outputs")
-        output = f'output{time.strftime("_%H:%M:%S_%Y%m%d")}.mp3'
+        output = f'output{time.strftime("_%H.%M.%S_%Y%m%d")}.mp3'
         tts.save(output)
         time.sleep(1)
         clear()
-        out.insert(0, "Playing the audio...")
+        out.insert('0', "Playing the audio...")
         out.update()
         time.sleep(1)
         playsound(output)
         clear()
-        out.insert(0, "Type your prompt...")
+        out.insert('0', "Type your prompt...")
         out.update()
     except :
         error = "something went wrong !! Try again"
