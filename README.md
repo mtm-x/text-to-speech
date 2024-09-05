@@ -6,9 +6,9 @@ Simple text to speech using python library gTTS ( Google text to speech).
 
 1. Install required packages
 
-        ```
+        
          pip install -r requirements.txt
-        ```
+        
 # Usage 
 
 1. Else Clone this repo , change directory and run the following 
